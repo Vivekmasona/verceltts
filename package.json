@@ -1,15 +1,16 @@
 {
   "name": "vercel-tts",
   "version": "1.0.0",
-  "description": "Serverless TTS using gtts-cli on Vercel",
+  "description": "Pure Node.js TTS API for Vercel",
   "main": "api/tts.js",
   "scripts": {
     "start": "vercel dev"
   },
   "dependencies": {
-    "gtts-cli": "^2.2.0"
+    "@vitalets/google-translate-tts": "^1.1.0",
+    "node-fetch": "^3.4.0"
   },
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   }
 }
