@@ -1,6 +1,8 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "api/tts.js", "use": "@vercel/node" }
-  ]
+  "version": 3,
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "nodejs22.x"
+    }
+  }
 }
