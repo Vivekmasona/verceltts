@@ -1,0 +1,15 @@
+{
+  "name": "vercel-tts",
+  "version": "1.0.0",
+  "description": "Serverless TTS using gtts-cli on Vercel",
+  "main": "api/tts.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "gtts-cli": "^2.2.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
